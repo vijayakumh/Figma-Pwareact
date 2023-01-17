@@ -27,7 +27,7 @@ const PromoBanner = ({title, img, actions, ...props}) => {
                     as="span"
                     fontSize={{base: '12px', lg: '16px'}}
                 >
-                    Get Free Shipping on $35+ Orders. Order by 12/19 for 2 day shipping & get your gifts in time!
+                    Get Free Shipping on $35+ Orders. Order by 12/20 for 2 day shipping & get your gifts in time!
                 </Text>
             </Link>
            </Box>
