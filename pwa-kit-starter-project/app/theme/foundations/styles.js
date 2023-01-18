@@ -7,8 +7,11 @@
 export default {
     global: {
         'html, body': {
-            backgroundColor: 'white',
-            color: 'gray.900'
+            //backgroundColor: 'white',
+            //color: 'gray.900'
+            backgroundColor: 'globalbackground',
+            color: 'globaltextcolor'
+    
         },
         body: {
             minHeight: '100vh'

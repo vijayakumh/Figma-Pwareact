@@ -4,11 +4,15 @@
  * SPDX-License-Identifier: BSD-3-Clause
  * For full license text, see the LICENSE file in the repo root or https://opensource.org/licenses/BSD-3-Clause
  */
+import color from '../../../figmaData/tokens.json'
+
 const colors = {
     transparent: 'transparent',
     current: 'currentColor',
     black: '#000000',
     white: '#FFFFFF',
+    globalbackground: color.global.color.backgroundColor.value,
+    globaltextcolor: color.global.color.globalTextColor.value,
 
     whiteAlpha: {
         50: 'rgba(255, 255, 255, 0.04)',
